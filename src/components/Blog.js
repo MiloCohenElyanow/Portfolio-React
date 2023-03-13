@@ -1,0 +1,42 @@
+import Link from "next/link";
+import React from "react";
+import Image from "next/image"
+const Blog = () => {
+
+
+
+
+  return (
+    <section
+      id="blog"
+      data-nav-tooltip="Blog"
+      className="pp-section pp-scrollable section"
+    >
+      <div className="container">
+        <div className="title">
+          <h3>Resume</h3>
+        </div>
+        <div className="row">
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
+
+                {/* <Link href="https://drive.google.com/file/d/1h3YcazPB0KakZDU-Uh5LLqq56vM4qyuO/view?usp=sharing">
+                </Link> */}
+                <div>
+                  <Image
+                    src="/resumepreview.PNG"
+                    alt="Landscape picture"
+                    width={632}
+                    height={826}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+export default Blog;
