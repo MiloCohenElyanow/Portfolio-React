@@ -31,10 +31,10 @@ const About = () => {
                 12-week intensive with high grades and high praise from instructors. Referrals upon request.
                 </p>
                 <div className="btn-bar">
-                  <a className="px-btn px-btn-theme" href="#">
+                  <a className="px-btn px-btn-theme" href="#ContactMeLink">
                     <span>Contact Me</span>
                   </a>
-                  <a className="px-btn px-btn-theme" href="#">
+                  <a className="px-btn px-btn-theme" href="#PortfolioLink">
                     <span>Portfolio</span>
                   </a>
                 </div>
@@ -43,10 +43,6 @@ const About = () => {
           </div>
         </div>
         <div className="separated" />
-
-        <div className="resume-box">
-          <p>RESUME COULD GO HERE ????????</p>
-        </div>
       </div>
     </section>
   );

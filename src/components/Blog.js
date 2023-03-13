@@ -1,8 +1,12 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image"
-const Blog = () => {
 
+
+import { Container, Row } from "react-bootstrap"
+import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
+
+const Blog = () => {
 
 
 
@@ -24,12 +28,12 @@ const Blog = () => {
                 {/* <Link href="https://drive.google.com/file/d/1h3YcazPB0KakZDU-Uh5LLqq56vM4qyuO/view?usp=sharing">
                 </Link> */}
                 <div>
-                  <Image
-                    src="/resumepreview.PNG"
-                    alt="Landscape picture"
-                    width={632}
-                    height={826}
-                  />
+                  <Container>
+                  <a href="https://drive.google.com/file/d/1h3YcazPB0KakZDU-Uh5LLqq56vM4qyuO/view?usp=sharing" target="_blank" rel="noreferrer">
+                    <img src="static/img/bruh.png" title="" alt="" />
+                  </a>
+                  </Container>
+
                 </div>
               </div>
             </div>

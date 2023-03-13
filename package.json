@@ -1,7 +1,8 @@
 {
-  "name": "sergio-react",
+  "name": "MiloCohenElyanow React Portfolio",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "start": "next start",
@@ -10,20 +11,26 @@
     "build": "next build"
   },
   "dependencies": {
+    "@cyntler/react-doc-viewer": "^1.12.0",
+    "bootstrap": "^5.2.3",
     "emailjs-com": "^3.2.0",
     "isotope-layout": "^3.0.6",
     "next": "12.3.1",
     "node-sass": "^7.0.3",
     "react": "18.2.0",
+    "react-bootstrap": "^2.7.2",
     "react-dom": "18.2.0",
     "react-pdf": "^6.2.2",
+    "react-scripts": "^5.0.1",
     "react-tsparticles": "^2.5.3",
     "swiper": "^8.4.4",
     "tsparticles": "^2.5.3",
     "typed.js": "^2.0.12"
   },
   "devDependencies": {
+    "css-loader": "^6.7.3",
     "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1"
+    "eslint-config-next": "12.3.1",
+    "ts-loader": "^9.4.2"
   }
 }

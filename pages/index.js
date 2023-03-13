@@ -31,7 +31,7 @@ const Index = () => {
                     I Create seamless back ends for full-stack applications.
                   </p>
                   <div className="btn-bar">
-                    <a className="px-btn px-btn-theme" href="#">
+                    <a className="px-btn px-btn-theme" href="https://drive.google.com/file/d/1h3YcazPB0KakZDU-Uh5LLqq56vM4qyuO/view?usp=sharing">
                       Donwload CV
                     </a>
                   </div>
