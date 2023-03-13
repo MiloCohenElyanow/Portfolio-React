@@ -57,7 +57,7 @@ function MyApp({ Component , pageProps  }) {
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                        children: "Sergio - Portfolio Template"
+                        children: "Milo Cohen-Elyanow"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "shortcut icon",

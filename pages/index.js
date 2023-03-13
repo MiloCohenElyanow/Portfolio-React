@@ -3,9 +3,12 @@ import About from "../src/components/About";
 import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
 import Layout from "../src/layout/Layout";
+
 const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
   ssr: false,
 });
+
+
 const Index = () => {
   return (
     <Layout>
@@ -36,7 +39,7 @@ const Index = () => {
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <img src="static/img/home-banner.png" title="" alt="" />
+                  <img src="static/img/heashotVignet.png" title="MiloCohenElyanow Headshot" alt="MiloCohenElyanow Headshot" />
                 </div>
               </div>
             </div>

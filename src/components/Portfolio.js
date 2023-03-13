@@ -176,7 +176,7 @@ const Portfolio = () => {
                 <span>A full guided tutorial on a regex that matches hexcodes</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/RegexPreview.PNG" title="" alt="" />
+                <img src="static/img/RegexPreview.png" title="" alt="" />
                 <div className="portfolio-icon">
                   <a
                     href="https://github.com/MiloCohenElyanow/regexHexMatcher"

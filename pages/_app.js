@@ -14,8 +14,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        <title>Sergio - Portfolio Template</title>
-        {/* <!-- Favicon --> */}
+        <title>Milo Cohen-Elyanow</title>
+
 
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         {/* <!-- plugin CSS --> */}
