@@ -61,7 +61,7 @@ const Portfolio = () => {
                 <span>Live website to bring those looking to study together! with study chats, video chats, and so much more.</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-4.jpg" title="" alt="" />
+                <img src="static/img/studyBuddPreview.png" title="" alt="" />
                 <div className="portfolio-icon">
                   <a
                     href="https://github.com/MiloCohenElyanow/study-Bud"
@@ -84,7 +84,7 @@ const Portfolio = () => {
                 <span>a progressive, packaged, classic text editor</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-4.jpg" title="" alt="" />
+                <img src="static/img/JATEpreview.png" title="" alt="" />
                 <div className="portfolio-icon">
                   <a
                     href="https://github.com/MiloCohenElyanow/PWAText-Editor"
@@ -107,7 +107,7 @@ const Portfolio = () => {
                 <span>This is an Object Relational Mapping backend application to simulate an E-Commerce website</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-4.jpg" title="" alt="" />
+                <img src="static/img/ORMPreview.png" title="" alt="" />
                 <div className="portfolio-icon">
                   <a
                     href="https://github.com/MiloCohenElyanow/ORM-E_Commerce"
@@ -130,7 +130,7 @@ const Portfolio = () => {
                 <span>This is a API focused backend application to simulate a Social Network backend</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-4.jpg" title="" alt="" />
+                <img src="static/img/socialnetworkpreview.png" title="" alt="" />
                 <div className="portfolio-icon">
                   <a
                     href="https://github.com/MiloCohenElyanow/SocialNetwork-API"
@@ -153,7 +153,7 @@ const Portfolio = () => {
                 <span>Content Management System for an employee database</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-4.jpg" title="" alt="" />
+                <img src="static/img/CMSpreview.png" title="" alt="" />
                 <div className="portfolio-icon">
                   <a
                     href="https://github.com/MiloCohenElyanow/cmsEmployeeTracker"
@@ -176,7 +176,7 @@ const Portfolio = () => {
                 <span>A full guided tutorial on a regex that matches hexcodes</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-4.jpg" title="" alt="" />
+                <img src="static/img/RegexPreview.PNG" title="" alt="" />
                 <div className="portfolio-icon">
                   <a
                     href="https://github.com/MiloCohenElyanow/regexHexMatcher"
