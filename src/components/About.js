@@ -1,3 +1,4 @@
+
 const About = () => {
   return (
     <section
@@ -11,7 +12,7 @@ const About = () => {
             <div className="about-me">
               <div className="img">
                 <div className="img-in">
-                  <img src="static/img/headshotAnimation.gif" title="Headshot Animation gif" alt="headshot Animation gif" />
+                  <img src="static/img/headshot-vignet.png" title="Milo Cohen-Elyanow Headshot polygon style" alt="Milo Cohen-Elyanow Headshot polygon style" />
                 </div>
               </div>
             </div>
@@ -26,9 +27,9 @@ const About = () => {
                   {`I'm`} a passionate back-end focused, web developer.{" "}
                 </h3>
                 <p>
-                recently-graduated student from the University of Minnesota Coding Bootcamp. From 
-                lightweight standalone Javascript content to fully-fledged MERN applications, I completed this 
-                12-week intensive with high grades and high praise from instructors. Referrals upon request.
+                recently-graduated student from the University of Minnesota coding bootcamp. From 
+                lightweight standalone Javascript content, to fully-fledged MERN-stack applications, I completed this 
+                12-week intensive with high grades and high praise from instructors. Referrals can be found on my LinkedIn <a href="https://www.linkedin.com/in/milo-cohen-elyanow-6b0087229/" target="_blank">HERE </a>.
                 </p>
                 <div className="btn-bar">
                   <a className="px-btn px-btn-theme" href="#ContactMeLink">

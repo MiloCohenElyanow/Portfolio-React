@@ -38,7 +38,7 @@ const Header = () => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/heashotVignet.png" title="MiloCohenElyanowHeadshot1" alt="MiloCohenElyanowHeadshot1" />
+                <img src="static/img/headshot-vignet@2x.png" title="Milo Cohen-Elyanow Headshot polygon style" alt="Milo Cohen-Elyanow Headshot polygon style" />
               </div>
               <h5>Milo</h5>
             </div>

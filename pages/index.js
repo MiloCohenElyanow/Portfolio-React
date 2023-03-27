@@ -1,3 +1,4 @@
+
 import dynamic from "next/dynamic";
 import About from "../src/components/About";
 import Blog from "../src/components/Blog";
@@ -22,24 +23,23 @@ const Index = () => {
             <div className="row full-screen align-items-center">
               <div className="col-lg-6">
                 <div className="type-box">
-                  <h6>Hello, I am</h6>
-                  <h1 className="font-alt">Milo Cohen-Elyanow</h1>
+                  <h1 className="font-alt">Milo C-E</h1>
                   <p className="lead">
                     Web Developer
                   </p>
                   <p className="desc">
-                    I Create seamless back ends for full-stack applications.
+                    Creating seamless back-ends for full-stack applications.
                   </p>
                   <div className="btn-bar">
                     <a className="px-btn px-btn-theme" href="https://drive.google.com/file/d/1h3YcazPB0KakZDU-Uh5LLqq56vM4qyuO/view?usp=sharing">
-                      Donwload CV
+                      Download resume
                     </a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <img src="static/img/heashotVignet.png" title="MiloCohenElyanow Headshot" alt="MiloCohenElyanow Headshot" />
+                  <img src="static/img/headshotAnimation.gif" title="Milo Cohen-Elyanow headshot animation" alt="Milo Cohen-Elyanow headshot animation" />
                 </div>
               </div>
             </div>

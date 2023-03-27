@@ -8,7 +8,8 @@
     "start": "next start",
     "sass": "node-sass --watch public/static/scss/style.scss public/assets/css/style.css --source-map public/static/css/style.css.map",
     "lint": "next lint",
-    "build": "next build"
+    "build": "next build",
+    "develop": "npm run build && npm run start"
   },
   "dependencies": {
     "@cyntler/react-doc-viewer": "^1.12.0",
