@@ -58,7 +58,8 @@ const Portfolio = () => {
     setFilterKey(key);
   };
 
-  const activeBtn = value => value === filterKey ? "active" : "";
+  const activeBtn = value => value === filterKey ? "" : "active"; //const activeBtn = (value) => (value === filterKey ? "active" : "");
+
 
   return /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("section", {
     id: "work",
@@ -95,7 +96,7 @@ const Portfolio = () => {
                 className: "white-color font-weight-bold",
                 children: "Study Bud"
               }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
-                children: "Live website to bring those looking to study together! with study chats, video chats, and so much more."
+                children: "Live website created for those looking to study together and delivering them space for study chats, video chats and much more."
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
               className: "portfolio-img",
@@ -111,7 +112,7 @@ const Portfolio = () => {
                   rel: "noreferrer",
                   className: "gallery-link",
                   children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
-                    class: "fab fa-github"
+                    class: "fab fa-github large"
                   })
                 })
               })]
@@ -127,7 +128,7 @@ const Portfolio = () => {
                 className: "white-color font-weight-bold",
                 children: "PWA TEXT EDITOR"
               }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
-                children: "a progressive, packaged, classic text editor"
+                children: "A progressive, packaged, classic text editor."
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
               className: "portfolio-img",
@@ -159,7 +160,7 @@ const Portfolio = () => {
                 className: "white-color font-weight-bold",
                 children: "ORM E-Commerce"
               }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
-                children: "This is an Object Relational Mapping backend application to simulate an E-Commerce website"
+                children: "An object relational mapping back-end application to simulate an e-commerce website."
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
               className: "portfolio-img",
@@ -191,7 +192,7 @@ const Portfolio = () => {
                 className: "white-color font-weight-bold",
                 children: "API-Social Network"
               }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
-                children: "This is a API focused backend application to simulate a Social Network backend"
+                children: "An API-focused back-end application to simulate a social network backend"
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
               className: "portfolio-img",
@@ -223,7 +224,7 @@ const Portfolio = () => {
                 className: "white-color font-weight-bold",
                 children: "CMS-Employee Tracker"
               }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
-                children: "Content Management System for an employee database"
+                children: "Content Management System for an employee database."
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
               className: "portfolio-img",
@@ -255,7 +256,7 @@ const Portfolio = () => {
                 className: "white-color font-weight-bold",
                 children: "Regex Hexcode matcher"
               }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
-                children: "A full guided tutorial on a regex that matches hexcodes"
+                children: "A full guided tutorial on a regex that matches hexcodes."
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
               className: "portfolio-img",

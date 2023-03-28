@@ -66,10 +66,6 @@ const Contact = () => {
               </p>
               <ul>
                 <li className="media">
-                  <i className="ti-email" />
-                  <span className="media-body">milocohenelyanow@gmail.com</span>
-                </li>
-                <li className="media">
                   <i className="ti-mobile" />
                   <span className="media-body">+1 612.222.4785</span>
                 </li>
@@ -79,7 +75,15 @@ const Contact = () => {
           <div className="col-lg-7 col-xl-8 m-15px-tb">
             <div className="contact-form">
               <h4>Message me with any inquiries</h4>
-              <form id="contact-form" onSubmit={(e) => onSubmit(e)}>
+
+            <div>
+              <ul>
+                <li> <a href="mailto:milocohenelyanow@gmail.com" target="_blank">Send me an email!</a></li>
+                <li> <a href="https://www.linkedin.com/in/milo-cohen-elyanow-6b0087229/" target="_blank">Message on LinkedIn!</a></li>
+              </ul>
+            </div>
+
+              {/* <form id="contact-form" onSubmit={(e) => onSubmit(e)}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -142,7 +146,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="col-md-12">
-                    <div className="send">
+                    <div className="send"> */}
                       {/* <button
                         onSubmit={(e) => onSubmit(e)}
                         className="px-btn px-btn-theme"
@@ -152,7 +156,7 @@ const Contact = () => {
                         {" "}
                         send message
                       </button> */}
-                      <input
+                      {/* <input
                         className="px-btn px-btn-theme"
                         type="submit"
                         value="send message"
@@ -177,7 +181,7 @@ const Contact = () => {
                     </span>
                   </div>
                 </div>
-              </form>
+              </form> */}
             </div>
           </div>
         </div>

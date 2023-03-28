@@ -31,7 +31,9 @@ const Portfolio = () => {
   const handleFilterKeyChange = (key) => () => {
     setFilterKey(key);
   };
-  const activeBtn = (value) => (value === filterKey ? "active" : "");
+  const activeBtn = (value) => (value === filterKey ? "" : "active");
+
+  //const activeBtn = (value) => (value === filterKey ? "active" : "");
   return (
     <section
       id="work"
@@ -59,7 +61,7 @@ const Portfolio = () => {
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Study Bud</h5>
-                <span>Live website to bring those looking to study together! with study chats, video chats, and so much more.</span>
+                <span>Live website created for those looking to study together and delivering them space for study chats, video chats and much more.</span>
               </div>
               <div className="portfolio-img">
                 <img src="static/img/studyBuddPreview.png" title="" alt="" />
@@ -71,7 +73,7 @@ const Portfolio = () => {
                     className="gallery-link"
                   >
                     {/* <span className="fab fa-github" /> */}
-                    <span class="fab fa-github"/>
+                    <span class="fab fa-github large"/>
                   </a>
                 </div>
               </div>
@@ -82,7 +84,7 @@ const Portfolio = () => {
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">PWA TEXT EDITOR</h5>
-                <span>a progressive, packaged, classic text editor</span>
+                <span>A progressive, packaged, classic text editor.</span>
               </div>
               <div className="portfolio-img">
                 <img src="static/img/JATEpreview.png" title="" alt="" />
@@ -105,7 +107,7 @@ const Portfolio = () => {
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">ORM E-Commerce</h5>
-                <span>This is an Object Relational Mapping backend application to simulate an E-Commerce website</span>
+                <span>An object relational mapping back-end application to simulate an e-commerce website.</span>
               </div>
               <div className="portfolio-img">
                 <img src="static/img/ORMPreview.png" title="" alt="" />
@@ -128,7 +130,7 @@ const Portfolio = () => {
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">API-Social Network</h5>
-                <span>This is a API focused backend application to simulate a Social Network backend</span>
+                <span>An API-focused back-end application to simulate a social network backend</span>
               </div>
               <div className="portfolio-img">
                 <img src="static/img/socialnetworkpreview.png" title="" alt="" />
@@ -151,7 +153,7 @@ const Portfolio = () => {
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">CMS-Employee Tracker</h5>
-                <span>Content Management System for an employee database</span>
+                <span>Content Management System for an employee database.</span>
               </div>
               <div className="portfolio-img">
                 <img src="static/img/CMSpreview.png" title="" alt="" />
@@ -174,7 +176,7 @@ const Portfolio = () => {
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Regex Hexcode matcher</h5>
-                <span>A full guided tutorial on a regex that matches hexcodes</span>
+                <span>A full guided tutorial on a regex that matches hexcodes.</span>
               </div>
               <div className="portfolio-img">
                 <img src="static/img/RegexPreview.png" title="" alt="" />
