@@ -33,7 +33,7 @@ const About = () => {
                   <ul>
                     <li>
                       "Growth Mindset". I have always had a growth mindset. But up until now, diving deep into development, it hardly mattered. Now my growth mindset
-                      benefits me greatly! Theres simply to much to learn in one lifetime, and I am one stubborn nail, I cant stop myself from taking time to understand 
+                      benefits me greatly. Theres simply to much to learn in one lifetime, and I am one stubborn nail, I cant stop myself from taking time to understand 
                       something I don't. So you can be sure, I'll be picking up lots of new technology's on my path in development.
                     </li>
                     <li>
@@ -42,7 +42,7 @@ const About = () => {
                       for the front end. I diligently stick to this principle behind well rounded back end development.
                     </li>
                     <li>
-                      Passionate about coding! I haven't stopped trying to take things apart, and put them back together, since I was little.
+                      Passionate about coding. I haven't stopped trying to take things apart, and put them back together, since I was little.
                       This is the core principle behind <u>ME</u>. Its how my brain works. That's only one of the reasons I make a "good" developer.
                     </li>
                   </ul>
@@ -56,7 +56,7 @@ const About = () => {
                     <li><u>LANGUAGES</u>: JavaScript, CSS, HTML 5, Python, C++ {"rusty"}.</li>
                     <li>Creating fluid Back-ends from <u>endpoint to endpoint</u>, making the user experience for front end developers easy.</li>
                     <li>Accurate, thorough understanding of REST Apis, Practices, & applications. Making the code you want easier to work with, and last longer.</li>
-                    <li>Intuitive, efficient database management. I don't just want you to know the data, I want you to be able to work with it, with the code I write!</li>
+                    <li>Intuitive, efficient database management. I don't just want you to know the data, I want you to be able to work with it, with the code I write.</li>
                   </ul>
 
                 </div>

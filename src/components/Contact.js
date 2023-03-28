@@ -60,7 +60,6 @@ const Contact = () => {
         <div className="row">
           <div className="col-lg-5 col-xl-4 m-15px-tb">
             <div className="contact-info">
-              <h4>Get in touch</h4>
               <p>
                 I{"'"}m always available to talk buisness, and provide help to those who seek it.
               </p>

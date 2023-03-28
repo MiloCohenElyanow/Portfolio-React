@@ -130,7 +130,7 @@ const Portfolio = () => {
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">API-Social Network</h5>
-                <span>An API-focused back-end application to simulate a social network backend</span>
+                <span>An API-focused back-end application to simulate a social network backend.</span>
               </div>
               <div className="portfolio-img">
                 <img src="static/img/socialnetworkpreview.png" title="" alt="" />
