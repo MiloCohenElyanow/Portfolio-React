@@ -61,7 +61,7 @@ const Contact = () => {
           <div className="col-lg-5 col-xl-4 m-15px-tb">
             <div className="contact-info">
               <p>
-                I{"'"}m always available to talk buisness, and provide help to those who seek it.
+                I{"'"}m always available to talk business and provide help to those who seek it.
               </p>
               <ul>
                 <li className="media">
@@ -77,8 +77,8 @@ const Contact = () => {
 
             <div>
               <ul>
-                <li> <a href="mailto:milocohenelyanow@gmail.com" target="_blank">Send me an email!</a></li>
-                <li> <a href="https://www.linkedin.com/in/milo-cohen-elyanow-6b0087229/" target="_blank">Message on LinkedIn!</a></li>
+                <li> <a href="mailto:milocohenelyanow@gmail.com" target="_blank">Send me an email</a></li>
+                <li> <a href="https://www.linkedin.com/in/milo-cohen-elyanow-6b0087229/" target="_blank">Message on LinkedIn</a></li>
               </ul>
             </div>
 
