@@ -192,7 +192,7 @@ const Portfolio = () => {
                 className: "white-color font-weight-bold",
                 children: "API-Social Network"
               }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
-                children: "An API-focused back-end application to simulate a social network backend"
+                children: "An API-focused back-end application to simulate a social network backend."
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
               className: "portfolio-img",

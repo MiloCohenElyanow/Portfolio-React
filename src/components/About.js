@@ -1,4 +1,9 @@
 
+
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+
+
 const About = () => {
   return (
     <section
@@ -6,6 +11,8 @@ const About = () => {
       data-nav-tooltip="About"
       className="pp-section pp-scrollable section counter"
     >
+      
+  
       <div className="container">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 m-15px-tb">
@@ -26,10 +33,17 @@ const About = () => {
               </div>
 
 
-              <div className="about-text">
                 <h3 className="Center">
-                  {`I'm`} a passionate, back-end focused web developer.{" "}
+                  A passionate, back-end focused web developer.{" "}
                 </h3>
+                <Tabs
+                defaultActiveKey="AboutMe"
+                id="justify-tab"
+                className="mb-1"
+                
+                >
+              <Tab eventKey="AboutMe" title="About me">
+                <div className="about-text">
                   <ul>
                     <li>
                     I have always had a growth mindset — there's simply too much to learn in one lifetime. 
@@ -46,20 +60,34 @@ const About = () => {
                     I am a developer. It{"'"}s how my brain works, what my passion is, and where my talents live.
                     </li>
                   </ul>
-              </div>
-                <div className="about-info">
-                  <h3 className="title"> <u>Skills</u></h3>
                 </div>
+              </Tab>
+              <Tab eventKey="Skills" title="Skills">
+
+
+
                 <div className="about-text">
                   <ul>
-                    <li><u>TECHNICALS</u>: REST, ORM's, MVC's, PWA's, OOP, React, Packaging, Unit testing {"(Jest)"}, Git & GitHub. Lots of other goodies. </li>
-                    <li><u>LANGUAGES</u>: JavaScript, CSS, HTML 5, Python, C++ {"rusty"}.</li>
                     <li>Creating fluid back ends from <u>endpoint to endpoint</u>, making the user experience for front-end developers seamless.</li>
                     <li>Accurate, thorough understanding of RESTful API's, practices, and applications. Making the code you want easier to work with and last longer.</li>
                     <li>Intuitive, efficient database management. I don't just want you to know the data, I want you to be able to use it — and 
                       experience it — the way you want to. Personalization & simplicity are my go-to's. </li>
                   </ul>
                 </div>
+              </Tab>
+              <Tab eventKey="Technicals" title="Technicals">
+                <ul>
+                <li>REST, ORM's, MVC's, PWA's, OOP, React, Packaging, Unit testing {"(Jest)"}, Git & GitHub. Lots of other goodies. </li>
+                </ul>
+              </Tab>
+
+              <Tab eventKey="Languages" title="Languages" >
+              <ul>
+              <li>JavaScript, CSS, HTML 5, Python, C++ {"(rusty)"}.</li>
+              </ul>
+
+              </Tab>
+                </Tabs>
 
 
 
