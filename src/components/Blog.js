@@ -31,7 +31,7 @@ const Blog = () => {
                 <div>
                   <Container>
                   <a href="https://drive.google.com/file/d/12lH8p8s4A068FkRAnCC-X9o7yD-f7kHV/view?usp=sharing" target="_blank" rel="noreferrer">
-                    <img src="static/img/resumepr.png" title="" alt="" />
+                    <img src="static/img/pr222.PNG" title="" alt="" />
                   </a>
                   </Container>
 
