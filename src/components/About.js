@@ -19,7 +19,7 @@ const About = () => {
             <div className="about-me">
               <div className="img">
                 <div className="img-in">
-                  <img src="static/img/headshot-vignet.png" title="Milo Cohen-Elyanow Headshot polygon style" alt="Milo Cohen-Elyanow Headshot polygon style" />
+                  <img src="static/img/headshot-vignet1.png" title="Milo Cohen-Elyanow Headshot" alt="Milo Cohen-Elyanow Headshot" />
                 </div>
               </div>
             </div>
