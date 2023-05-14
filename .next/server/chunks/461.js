@@ -278,6 +278,38 @@ const Portfolio = () => {
               })]
             })]
           })
+        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("div", {
+          className: "grid-item branding",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "portfolio-box-01",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+              className: "portfolio-info",
+              children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("h5", {
+                className: "white-color font-weight-bold",
+                children: "Libellum"
+              }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
+                children: "A fully operational book store, similar to drop shiping, integregrated with stripe and a search engine."
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+              className: "portfolio-img",
+              children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("img", {
+                src: "static/img/LibellumPV.PNG",
+                title: "",
+                alt: ""
+              }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("div", {
+                className: "portfolio-icon",
+                children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("a", {
+                  href: "https://github.com/MiloCohenElyanow/Libellum",
+                  target: "_blank",
+                  rel: "noreferrer",
+                  className: "gallery-link",
+                  children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
+                    class: "fab fa-github"
+                  })
+                })
+              })]
+            })]
+          })
         })]
       })]
     })

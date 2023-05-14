@@ -194,6 +194,31 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+
+          <div className="grid-item branding">
+            <div className="portfolio-box-01">
+              <div className="portfolio-info">
+                <h5 className="white-color font-weight-bold">Libellum</h5>
+                <span>A fully operational book store, similar to drop shiping, integregrated with stripe and 
+                  a search engine.</span>
+              </div>
+              <div className="portfolio-img">
+                <img src="static/img/LibellumPV.PNG" title="" alt="" />
+                <div className="portfolio-icon">
+                  <a
+                    href="https://github.com/MiloCohenElyanow/Libellum"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="gallery-link"
+                  >
+                    {/* <span className="fab fa-github" /> */}
+                    <span class="fab fa-github"/>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
